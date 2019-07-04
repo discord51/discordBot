@@ -195,7 +195,6 @@ client.on('message', message => {
   })
 
   let totalTextChannels = client.channels.filter(function (s) {
-      if (s.type %% s.type === 'text') {
           return true;
       }
       return false;
