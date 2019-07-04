@@ -194,36 +194,6 @@ client.on('message', message => {
       return false;
   })
 
-  let totalTextChannels = client.channels.filter(function (s) {
-          return true;
-      }
-      return false;
-  })
-
-  let cpu = os.cpus();
-  let cpuArray = cpu[0].model.replace(/\s+/g, " ").trim().split(" ");
-  let cpuCores = cpu.length;
-  let cpuSpeed = (cpu[0].speed / 1000) + "MHZ";
-  if (message.content.startsWith(prefix + "stats") || message.content.startsWith(prefix + "bot")) {
-      message.channel.send({
-          embed: new Discord.RichEmbed()
-              .setColor('RANDOM')
-              .setTitle('❯ | Stats.')
-              .addField('» Ping:', `**\`${client.ping}\`ms.**`)
-              .addField('» RAM Usage:', `**\`${(process.memoryUsage().rss / 1048576).toFixed()}\`MB.**`)
-              .addField('» Guilds:', `**\`${client.guilds.size}\`**`)
-              .addField('» Channels:', `**\`${client.channels.size}\`**`)
-              .addField('» Users:', `**\`${client.users.size}\`**`)
-              .addField('» Name/Tag:', `**\`${client.user.tag} | (${client.user.id})\`**`)
-              .addField('» Platform:', `**\`${os.platform()}\`**`)
-              .addField('» CPU:', `**\`${cpuArray[0]} ${cpuArray[1]}\`**`)
-              .addField('» CPU Specs:', `**\`${cpuCores} @ ${cpuSpeed}\`**`)
-              .addField('» Private Conversations:', `**\`${totalDMs.size}\`**`)
-              .addField('» Developers:', `**<@523865295337553921>**`)
-              .addField('» prefix:', `**-**`)
-      })
-  }
-})
 
 
 
