@@ -188,7 +188,6 @@ client.on('message', async msg => {
 client.on('message', message => {
 
   let totalDMs = client.channels.filter(function (s) {
-      if (s.type % s.type === 'dm') {
           return true;
       }
       return false;
@@ -215,7 +214,7 @@ client.on('message', message => {
 
 
 
-console.log("Welcome Again !");
+console.log("Welcome Spider Shop !");
 
 client.on('ready', () => {
     client.user.setStatus('idle');
