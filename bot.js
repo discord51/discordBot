@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+﻿const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "%";
 client.on('message', message => {
@@ -294,7 +294,7 @@ if(message.content.startsWith(prefix+"google")){
 
  client.on("message", message => {
 	var prefix = "%";
- if (message.content === "%help") {
+ if (message.content === "%help-gn") {
 	 message.channel.send('**تم ارسال رسالة في الخاص** :mailbox_with_mail: ');
   const embed = new Discord.RichEmbed() 
       .setColor("RANDOM")
@@ -331,7 +331,7 @@ if(message.content.startsWith(prefix+"google")){
 
    client.on("message", message => {
 	var prefix = "%";
- if (message.content === "%help") {
+ if (message.content === "%help-ad") {
 	 message.channel.send('**تم ارسال رسالة بالخاص** :mailbox_with_mail: ');
   const embed = new Discord.RichEmbed() 
       .setColor("RANDOM")
