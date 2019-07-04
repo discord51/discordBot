@@ -188,7 +188,7 @@ client.on('message', async msg => {
 client.on('message', message => {
 
   let totalDMs = client.channels.filter(function (s) {
-      if (s.type %% s.type === 'dm') {
+      if (s.type % s.type === 'dm') {
           return true;
       }
       return false;
