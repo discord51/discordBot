@@ -347,5 +347,4 @@ client.on('ready', () => {
 client.user.setGame(`Type ${prefix}play`,"http://twitch.tv/alpha")
 });
  
-// للهيروكو client.login(process.env.BOT_TOKEN);
-// للخوادم العادية  cilent.login('token');
+client.login(process.env.BOT_TOKEN);
