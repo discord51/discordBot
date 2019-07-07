@@ -1,0 +1,6 @@
+owner=«Ï œÏ Õﬁﬂ
+prefix=!
+game=Me | !play
+stayinchannel=true
+songinstatus=false
+token= ‹‹‹Êﬂ‹‹‹‰ »‹‹Ê ‹ﬂ
