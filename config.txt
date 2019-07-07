@@ -1,6 +1,6 @@
-owner=«Ï œÏ Õﬁﬂ
-prefix=!
-game=Me | !play
+owner=401044429646987275
+prefix=B
+game=Body
 stayinchannel=true
 songinstatus=false
-token= ‹‹‹Êﬂ‹‹‹‰ »‹‹Ê ‹ﬂ
+token=NTk3NDI1OTY0Mzc2MzkxNjgx.XSH6Tg.At12ozb6D2n1iUP8XAKTyh0XEX4
